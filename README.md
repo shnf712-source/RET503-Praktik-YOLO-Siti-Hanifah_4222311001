@@ -1,21 +1,21 @@
-# Praktik Terpadu RET503 — Minggu 4–7
+# Praktik Terpadu RET503 â€” Minggu 4â€“7
 
-**Nama:** Afiandika Abdullah  
-**NIM:** 4222311007  
+**Nama:** Siti Hanifah  
+**NIM:** 4222311001
 **Model:** YOLOv8n  
-**Dataset:** COCO subset — person, car, bottle
+**Dataset:** COCO subset â€” person, car, bottle
 
 ## Eksperimen
 
 | Eksperimen | Konfigurasi | mAP50 | mAP50-95 |
 |---|---|---:|---:|
-| E1 — Pretrained | imgsz=416 | 0.305 | 0.167 |
-| E2 — Scratch | imgsz=416 | 0.011 | 0.002 |
-| E3 — Tuning | imgsz=640 | 0.429 | 0.246 |
+| E1 â€” Pretrained | imgsz=416 | 0.305 | 0.167 |
+| E2 â€” Scratch | imgsz=416 | 0.011 | 0.002 |
+| E3 â€” Tuning | imgsz=640 | 0.429 | 0.246 |
 
 ## Evaluasi Test
 
-Model terpilih: E3 — Tuning  
+Model terpilih: E3 â€” Tuning  
 mAP50: 0.592  
 mAP50-95: 0.394
 
@@ -25,13 +25,13 @@ Pada eksperimen ini, E3 dengan ukuran gambar 640 menghasilkan mAP50-95 validasi 
 
 ## File
 
-- `00_ambil_subset_coco.py` — mengambil subset dataset.
-- `01_cek_anotasi.py` — memeriksa anotasi.
-- `02_yolo_ke_coco.py` — konversi anotasi YOLO ke COCO.
-- `03_coco_ke_yolo.py` — konversi anotasi COCO ke YOLO.
-- `05_split_dataset_yolo.py` — membagi dataset.
-- `06_latih_bandingkan.py` — menjalankan eksperimen dan evaluasi.
-- `hasil_praktik_4222311007.txt` — laporan eksperimen.
-- `hasil_praktik_4222311007.csv` — tabel hasil eksperimen.
+- `00_ambil_subset_coco.py` â€” mengambil subset dataset.
+- `01_cek_anotasi.py` â€” memeriksa anotasi.
+- `02_yolo_ke_coco.py` â€” konversi anotasi YOLO ke COCO.
+- `03_coco_ke_yolo.py` â€” konversi anotasi COCO ke YOLO.
+- `05_split_dataset_yolo.py` â€” membagi dataset.
+- `06_latih_bandingkan.py` â€” menjalankan eksperimen dan evaluasi.
+- `hasil_praktik_4222311007.txt` â€” laporan eksperimen.
+- `hasil_praktik_4222311007.csv` â€” tabel hasil eksperimen.
 
 Catatan: file gambar dataset dan bobot model tidak disertakan dalam repositori ini.
