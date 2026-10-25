@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+coco_unduhan/
+dataset_yolo/
+dataset_v1/images/
+dataset_v1/labels/
+runs/
+hasil_praktik/*/weights/
+yolov8n.pt
+hasil_praktik_.csv
+hasil_praktik_.txt
